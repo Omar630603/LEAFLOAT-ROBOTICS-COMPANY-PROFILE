@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Drones",
+    "image": "assets/img/services/drones.jpg",
+    "content": [
+      { "type": "paragraph", "text": "Key Features of Our Drones" }
+    ]
+  },
+  {
+    "title": "Robodogs",
+    "image": "assets/img/services/robodogs-1.jpg",
+    "content": [
+      { "type": "paragraph", "text": "Key Features of Our Robodogs" }
+    ]
+  }
+]
