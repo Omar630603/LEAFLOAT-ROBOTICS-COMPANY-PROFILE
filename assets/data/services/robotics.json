@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Robodogs",
+    "image": "assets/img/services/robodogs.jpg",
+    "content": [
+      { "type": "paragraph", "text": "At Leafloat Robotics, we are pioneering the next generation of robotic inspection technology with our custom AI-powered Robodogs. Designed for high-mobility, adaptability, and intelligence, our Robodogs are equipped with state-of-the-art sensors and AI-driven analytics to enhance inspection, surveillance, and operational efficiency in challenging environments. Whether in industrial sites, hazardous areas, or remote locations, our Robodogs provide a seamless and automated solution for inspections and monitoring." },
+      { "type": "paragraph", "text": "Key Features of Our Robodogs" },
+      { "type": "check-list", "items": 
+        ["AI-Driven Autonomy & Navigation", "High-Mobility Quadrupedal Design", "Advanced Sensor Suite", "Autonomous Inspection & Data Collection", "Remote Operation & Cloud Connectivity"] 
+      },
+      { "type": "paragraph", "text": "Leafloat Robotics is committed to continuous innovation in robotic inspection. Our Robodogs represent the future of AI-powered inspection and monitoring, redefining efficiency, safety, and automation across industries. Leafloat Robotics is at the forefront of intelligent robotic solutions, ensuring that businesses and industries stay ahead with cutting-edge technology" }
+    ]
+  },
+  {
+    "title": "UAVs",
+    "image": "assets/img/services/uavs.jpg",
+    "content": [
+      { "type": "paragraph", "text": "At Leafloat Robotics, we are pioneering the development of Unmanned Aerial Vehicles (UAVs) tailored for agricultural surveying. Our advanced UAV systems are designed to optimize data collection, enhance farm management, and improve crop yield through precision agriculture. By leveraging AI, multispectral imaging, and autonomous flight capabilities, our UAV solutions offer farmers actionable insights to make informed decisions." },
+      { "type": "paragraph", "text": "Key Features of Our UAVs" },
+      { "type": "check-list", "items": 
+        ["High-Resolution Imaging", "AI-Powered Data Analysis", "Autonomous Flight & Navigation", "Cloud-Based Data Management", "Customizable Payloads"] 
+      },
+      { "type": "paragraph", "text": "Leafloat Robotics is continuously innovating in UAV technology to enhance agricultural operations. Our UAV solutions empower farmers with the latest technology to increase productivity, reduce costs, and achieve sustainable agriculture. At Leafloat Robotics, we are committed to revolutionizing the agricultural sector through cutting-edge UAV technology, making precision farming accessible to all." }
+    ]
+  },
+  {
+    "title": "UGVs",
+    "image": "assets/img/services/ugvs.jpg",
+    "content": [
+      { "type": "paragraph", "text": "Leafloat Robotics is at the forefront of developing advanced Unmanned Ground Vehicles (UGVs) designed for multi-purpose applications across various industries, including agriculture, construction, and warehouse automation. Our custom UGV solutions integrate AI-driven autonomy, robust sensor systems, and adaptable payloads to optimize efficiency, safety, and productivity in challenging environments." },
+      { "type": "paragraph", "text": "Key Features of Our UGVs" },
+      { "type": "check-list", "items": 
+        ["Autonomous Navigation & AI Integration", "Rugged Design & Versatility", "Modular Payload System", "Remote Monitoring & Control", "Integration with Smart Infrastructure"] 
+      },
+      { "type": "paragraph", "text": "Leafloat Robotics is continuously enhancing its UGV technology to bring innovative solutions to various industries. At Leafloat Robotics, we are committed to pushing the boundaries of UGV technology, enabling seamless automation for agriculture, construction sites, and warehouses. Our mission is to provide adaptable and intelligent robotic solutions that redefine efficiency and productivity across industries." }
+    ]
+  },
+  {
+    "title": "Non-GPS Navigation",
+    "image": "assets/img/services/non-gps-navigation.jpg",
+    "content": [
+      { "type": "paragraph", "text": "At Leafloat Robotics, we are developing advanced non-GPS navigation solutions for drones and ground vehicles, utilizing Real-Time Kinematic (RTK) positioning and visual sensors. These technologies enable highly accurate navigation in GPS-denied environments such as dense forests, underground tunnels, warehouses, and urban canyons. Our system integrates AI-driven sensor fusion to provide real-time localization and autonomous mobility without reliance on traditional GPS signals." },
+      { "type": "paragraph", "text": "Key Features of Our Non-GPS navigation" },
+      { "type": "check-list", "items": 
+        ["RTK-Based Positioning", "Visual Odometry & SLAM (Simultaneous Localization and Mapping)", "LiDAR & Depth Sensing", "Inertial Navigation System (INS) & Sensor Fusion", "AI-Powered Decision Making"] 
+      },
+      { "type": "paragraph", "text": "Leafloat Robotics is committed to advancing non-GPS navigation. Our non-GPS navigation solutions provide an innovative approach to autonomous mobility in GPS-restricted environments. With RTK, visual sensors, and AI-driven processing, Leafloat Robotics is redefining how drones and ground vehicles navigate complex terrains." }
+    ]
+  },
+  {
+    "title": "Nature Digitization",
+    "image": "assets/img/services/nature_digitization.jpg",
+    "content": [
+      { "type": "paragraph", "text": "At Leafloat Robotics, we are developing advanced non-GPS navigation solutions for drones and ground vehicles, utilizing Real-Time Kinematic (RTK) positioning and visual sensors. These technologies enable highly accurate navigation in GPS-denied environments such as dense forests, underground tunnels, warehouses, and urban canyons. Our system integrates AI-driven sensor fusion to provide real-time localization and autonomous mobility without reliance on traditional GPS signals." },
+      { "type": "paragraph", "text": "Key Features of Our Non-GPS navigation" },
+      { "type": "check-list", "items": 
+        ["RTK-Based Positioning", "Visual Odometry & SLAM (Simultaneous Localization and Mapping)", "LiDAR & Depth Sensing", "Inertial Navigation System (INS) & Sensor Fusion", "AI-Powered Decision Making"] 
+      },
+      { "type": "paragraph", "text": "Leafloat Robotics is committed to advancing non-GPS navigation. Our non-GPS navigation solutions provide an innovative approach to autonomous mobility in GPS-restricted environments. With RTK, visual sensors, and AI-driven processing, Leafloat Robotics is redefining how drones and ground vehicles navigate complex terrains." }
+    ]
+  }
+]

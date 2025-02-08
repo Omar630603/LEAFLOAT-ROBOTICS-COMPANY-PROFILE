@@ -1019,20 +1019,20 @@ section,
   color: var(--accent-color);
 }
 
-.about .watch-video i {
+.watch-video i {
   font-size: 2rem;
   transition: 0.3s;
   color: var(--accent-color);
 }
 
-.about .watch-video a {
+.watch-video a {
   font-weight: 600;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin-left: 8px;
   transition: 0.3s;
 }
 
-.about .watch-video:hover a {
+.watch-video:hover a {
   color: var(--accent-color);
 }
 
