@@ -5,7 +5,40 @@ document.addEventListener("DOMContentLoaded", function () {
     return;
   }
 
-  const jsonFilePath = container.dataset.json; // Get JSON path dynamically
+  // Add loading overlay to the service details section
+  const serviceDetails = document.querySelector(".col-lg-8");
+  const loadingOverlay = document.createElement("div");
+  loadingOverlay.classList.add("loading-overlay");
+  loadingOverlay.innerHTML = `
+    <div class="spinner-border" style="color: #1bbd36" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  `;
+  serviceDetails.style.position = "relative";
+  serviceDetails.appendChild(loadingOverlay);
+
+  // Add CSS for the loading overlay
+  const style = document.createElement("style");
+  style.textContent = `
+    .loading-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.8);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .loading-overlay.active {
+      display: flex;
+    }
+  `;
+  document.head.appendChild(style);
+
+  const jsonFilePath = container.dataset.json;
 
   fetch(jsonFilePath)
     .then(response => response.json())
@@ -15,19 +48,31 @@ document.addEventListener("DOMContentLoaded", function () {
       const serviceTitle = document.getElementById("service-title");
       const serviceContent = document.getElementById("service-content");
 
-      // Populate service list
       services.forEach((service, index) => {
         const link = document.createElement("a");
         link.href = "#";
         link.textContent = service.title;
         link.dataset.index = index;
-        if (index === 0) link.classList.add("active"); // Default active
+        if (index === 0) link.classList.add("active");
 
         link.addEventListener("click", function (event) {
           event.preventDefault();
-          updateServiceDetails(services[this.dataset.index]);
+          loadingOverlay.classList.add("active");
+          
+          // Create a new image to preload
+          const img = new Image();
+          img.onload = function() {
+            updateServiceDetails(services[this.dataset.index]);
+            setTimeout(() => {
+              loadingOverlay.classList.remove("active");
+            }, 300); // Minimum loading time for smooth transition
+          }.bind(this);
+          img.onerror = function() {
+            updateServiceDetails(services[this.dataset.index]);
+            loadingOverlay.classList.remove("active");
+          }.bind(this);
+          img.src = services[this.dataset.index].image;
 
-          // Update active link
           document.querySelectorAll("#services-list a").forEach(a => a.classList.remove("active"));
           this.classList.add("active");
         });
@@ -35,17 +80,13 @@ document.addEventListener("DOMContentLoaded", function () {
         servicesList.appendChild(link);
       });
 
-      // Load first service by default
       if (services.length > 0) updateServiceDetails(services[0]);
 
       function updateServiceDetails(service) {
         serviceImage.src = service.image;
         serviceTitle.textContent = service.title;
-
-        // Clear previous content
         serviceContent.innerHTML = "";
 
-        // Generate dynamic content
         service.content.forEach(item => {
           if (item.type === "paragraph") {
             const p = document.createElement("p");
@@ -61,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
             serviceContent.appendChild(ul);
           } else if (item.type === "image") {
             const imgWrapper = document.createElement("div");
-            imgWrapper.classList.add("img-fluid", "text-center", "my-3"); // Responsive styling
+            imgWrapper.classList.add("img-fluid", "text-center", "my-3");
             const img = document.createElement("img");
             img.src = item.src;
             img.classList.add("img-fluid");
@@ -98,7 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
             });
             serviceContent.appendChild(ul);
           }
-          
         });
       }
     })
