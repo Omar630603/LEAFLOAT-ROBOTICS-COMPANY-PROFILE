@@ -1,16 +1,28 @@
 [
   {
-    "title": "Drones",
-    "image": "assets/img/services/drones.jpg",
-    "content": [
-      { "type": "title", "text": "Key Features of Our Drones" }
-    ]
-  },
-  {
     "title": "Robodogs",
     "image": "assets/img/services/robodogs-1.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Robodogs" }
+      { "type": "title", "text": "Robodogs" },
+      { "type": "paragraph", "text": "Our rental Robodogs are perfect for inspection, surveillance, and data collection in challenging environments. They are equipped with advanced AI-powered navigation and sensors for efficient operation." },
+      { "type": "title", "text": "Available Models" },
+      { "type": "check-list", "items": 
+        ["Go2", "Go2-W"] 
+      },
+      { "type": "paragraph", "text": "These models are designed for high-mobility and adaptability, making them ideal for industrial inspections, hazardous area monitoring, and remote operations." }
+    ]
+  },
+  {
+    "title": "Drones",
+    "image": "assets/img/services/drones.jpg",
+    "content": [
+      { "type": "title", "text": "Drones" },
+      { "type": "paragraph", "text": "Our rental drones are equipped with advanced features for aerial photography, surveying, and inspection. They are ideal for short-term projects requiring high-quality data collection and imaging." },
+      { "type": "title", "text": "Available Models" },
+      { "type": "check-list", "items": 
+        ["DJI Mavic 3T", "DJI Matrice 4", "DJI Air 3S", "DJI Mini Pro"] 
+      },
+      { "type": "paragraph", "text": "These drones are perfect for applications such as mapping, surveillance, and industrial inspections, offering high-resolution imaging and autonomous flight capabilities." }
     ]
   }
 ]

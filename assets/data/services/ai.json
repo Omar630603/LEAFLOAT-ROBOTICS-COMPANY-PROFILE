@@ -3,42 +3,91 @@
     "title": "Warehouse Management",
     "image": "assets/img/services/warehouse_management.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Warehouse Management" }
+      { "type": "title", "text": "Warehouse Management" },
+      { "type": "paragraph", "text": "Our AI-powered warehouse management system optimizes inventory tracking, storage, and logistics operations. By integrating computer vision, IoT sensors, and predictive analytics, we provide real-time insights into inventory levels, automate stock replenishment, and streamline order fulfillment processes." },
+      { "type": "paragraph", "text": "The system is designed to reduce operational costs, minimize human error, and improve overall efficiency. It can seamlessly integrate with existing warehouse infrastructure, making it a scalable solution for businesses of all sizes." },
+      { "type": "title", "text": "Key Features" },
+      { "type": "check-list", "items": 
+        ["Real-Time Inventory Tracking", "Automated Stock Replenishment", "Predictive Analytics for Demand Forecasting", "Integration with IoT Devices", "Cloud-Based Dashboard for Monitoring"] 
+      },
+      { "type": "paragraph", "text": "With our AI-driven warehouse management system, businesses can achieve higher accuracy in inventory management, reduce downtime, and enhance customer satisfaction through faster and more reliable order processing." }
     ]
   },
   {
     "title": "Fruit Classification",
     "image": "assets/img/services/fruit_classification.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Fruit Classification" }
+      { "type": "title", "text": "AI Models:" },
+      { "type": "ordered-list", "items": ["Plant Health & Disease Detection", "Plant Ripeness Detection"] },
+      { "type": "paragraph", "text": "Plant Health & Disease Detection AI Model" },
+      { "type": "image", "src": "/assets/img/services/palm_fruit.jpg" },
+      { "type": "paragraph", "text": "Identifies cacao diseases:" },
+      { "type": "check-list", "items": ["Black Pod Disease", "Frosty Pod Rot", "Mirid Infestation"] },
+      { "type": "paragraph", "text": "This AI model helps farmers detect diseases early, enabling timely intervention to prevent crop loss and improve yield quality. It uses advanced computer vision techniques to analyze plant health in real-time." },
+      { "type": "paragraph", "text": "Ripeness Detection Model" },
+      { "type": "paragraph", "text": "Classifies Cacao Pods:" },
+      { "type": "bullet-list", "items": ["Ripe", "Underipe", "Overripe"] },
+      { "type": "paragraph", "text": "The ripeness detection model ensures optimal harvest timing, maximizing yield and quality. It uses machine learning algorithms to classify fruits based on their maturity levels, providing actionable insights for farmers." },
+      { "type": "paragraph", "text": "Key Benefits:" },
+      { "type": "check-list", "items": ["Improves crop health management.", "Enhances productivity and quality control in cacao farming.", "Data collection for further analysis about the tree health."] },
+      { "type": "title", "text": "Dragon Fruit Maturity & Flower Identification" },
+      { "type": "paragraph", "text": "Our AI model for dragon fruit maturity and flower identification ensures optimal harvest timing and yield prediction. It classifies dragon fruits into Ripe, Semi-Ripe, and Raw categories and detects flowers to monitor growth stages." },
+      { "type": "paragraph", "text": "This model is particularly useful for dragon fruit farmers, as it helps them plan harvests more efficiently and monitor flower development to predict future yields. It leverages deep learning to provide accurate and reliable results." },
+      { "type": "check-list", "items": 
+        ["Ripeness Classification", "Flower Detection", "Growth Monitoring", "Harvest Optimization", "Data-Driven Farming"] 
+      }
     ]
   },
   {
     "title": "Trees Classification",
     "image": "assets/img/services/trees_classification.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Trees Classification" }
+      { "type": "title", "text": "Trees Classification" },
+      { "type": "paragraph", "text": "Our AI models classify trees based on species, health, and growth stages. This technology supports forestry management, biodiversity studies, and precision agriculture by providing detailed insights into tree populations and their conditions." },
+      { "type": "paragraph", "text": "The system uses high-resolution imagery and machine learning algorithms to identify tree species, detect diseases, and monitor growth patterns. It is an essential tool for environmental conservation and sustainable resource management." },
+      { "type": "check-list", "items": 
+        ["Species Identification", "Health Monitoring", "Growth Stage Classification", "Integration with GIS Platforms", "Data-Driven Insights"] 
+      },
+      { "type": "paragraph", "text": "With our tree classification AI, organizations can make informed decisions about forest management, track biodiversity, and implement conservation strategies effectively." }
     ]
   },
   {
     "title": "Safety AI Software",
     "image": "assets/img/services/safety_ai_software.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Safety AI Software" }
+      { "type": "title", "text": "Safety AI Software" },
+      { "type": "paragraph", "text": "Our AI-powered safety software enhances workplace safety in industries like gas, oil, and construction. It detects hazards, monitors worker compliance with PPE, and provides real-time alerts to prevent accidents." },
+      { "type": "paragraph", "text": "The software integrates with existing surveillance systems and IoT devices to create a comprehensive safety network. It uses computer vision and machine learning to identify potential risks and ensure compliance with safety protocols." },
+      { "type": "check-list", "items": 
+        ["PPE Detection", "Hazard Zone Detection", "Crowd and Behavioral Monitoring", "Fall and Slip Detection", "Face ID-Based Attendance"] 
+      },
+      { "type": "paragraph", "text": "By implementing our safety AI software, companies can significantly reduce workplace accidents, improve compliance with safety regulations, and create a safer working environment for their employees." }
     ]
   },
   {
     "title": "Restaurants Management Eco System",
     "image": "assets/img/services/restaurants_management_eco_system.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Restaurants Management Eco System" }
+      { "type": "title", "text": "Restaurants Management Eco System" },
+      { "type": "paragraph", "text": "Our AI-driven restaurant management ecosystem optimizes operations, from inventory management to customer service. It integrates predictive analytics, IoT devices, and automation to enhance efficiency and customer satisfaction." },
+      { "type": "paragraph", "text": "The system provides real-time insights into inventory levels, customer preferences, and operational performance. It helps restaurant owners reduce waste, improve service quality, and increase profitability." },
+      { "type": "check-list", "items": 
+        ["Inventory Management", "Predictive Ordering", "Customer Behavior Analysis", "Automated Reporting", "Integration with POS Systems"] 
+      },
+      { "type": "paragraph", "text": "With our restaurant management ecosystem, businesses can streamline their operations, deliver exceptional customer experiences, and stay competitive in the fast-paced food industry." }
     ]
   },
   {
     "title": "Crowd Monitoring",
     "image": "assets/img/services/crowd_monitoring.jpg",
     "content": [
-      { "type": "title", "text": "Key Features of Our Crowd Monitoring" }
+      { "type": "title", "text": "Crowd Monitoring" },
+      { "type": "paragraph", "text": "Our AI-powered crowd monitoring system ensures safety and efficiency in public spaces. It analyzes crowd density, detects anomalies, and provides real-time alerts to manage large gatherings effectively." },
+      { "type": "paragraph", "text": "The system uses advanced computer vision algorithms to monitor crowd movements and identify potential risks, such as overcrowding or suspicious behavior. It is ideal for use in stadiums, airports, shopping malls, and other high-traffic areas." },
+      { "type": "check-list", "items": 
+        ["Crowd Density Analysis", "Anomaly Detection", "Real-Time Alerts", "Integration with Surveillance Systems", "Data-Driven Insights"] 
+      },
+      { "type": "paragraph", "text": "By deploying our crowd monitoring AI, organizations can enhance public safety, optimize crowd management, and respond quickly to emergencies." }
     ]
   }
 ]
