@@ -4,7 +4,7 @@
     "image": "assets/img/services/robodogs.jpg",
     "content": [
       { "type": "paragraph", "text": "At Leafloat Robotics, we are pioneering the next generation of robotic inspection technology with our custom AI-powered Robodogs. Designed for high-mobility, adaptability, and intelligence, our Robodogs are equipped with state-of-the-art sensors and AI-driven analytics to enhance inspection, surveillance, and operational efficiency in challenging environments. Whether in industrial sites, hazardous areas, or remote locations, our Robodogs provide a seamless and automated solution for inspections and monitoring." },
-      { "type": "paragraph", "text": "Key Features of Our Robodogs" },
+      { "type": "title", "text": "Key Features of Our Robodogs" },
       { "type": "check-list", "items": 
         ["AI-Driven Autonomy & Navigation", "High-Mobility Quadrupedal Design", "Advanced Sensor Suite", "Autonomous Inspection & Data Collection", "Remote Operation & Cloud Connectivity"] 
       },
@@ -16,7 +16,7 @@
     "image": "assets/img/services/uavs.jpg",
     "content": [
       { "type": "paragraph", "text": "At Leafloat Robotics, we are pioneering the development of Unmanned Aerial Vehicles (UAVs) tailored for agricultural surveying. Our advanced UAV systems are designed to optimize data collection, enhance farm management, and improve crop yield through precision agriculture. By leveraging AI, multispectral imaging, and autonomous flight capabilities, our UAV solutions offer farmers actionable insights to make informed decisions." },
-      { "type": "paragraph", "text": "Key Features of Our UAVs" },
+      { "type": "title", "text": "Key Features of Our UAVs" },
       { "type": "check-list", "items": 
         ["High-Resolution Imaging", "AI-Powered Data Analysis", "Autonomous Flight & Navigation", "Cloud-Based Data Management", "Customizable Payloads"] 
       },
@@ -28,7 +28,7 @@
     "image": "assets/img/services/ugvs.jpg",
     "content": [
       { "type": "paragraph", "text": "Leafloat Robotics is at the forefront of developing advanced Unmanned Ground Vehicles (UGVs) designed for multi-purpose applications across various industries, including agriculture, construction, and warehouse automation. Our custom UGV solutions integrate AI-driven autonomy, robust sensor systems, and adaptable payloads to optimize efficiency, safety, and productivity in challenging environments." },
-      { "type": "paragraph", "text": "Key Features of Our UGVs" },
+      { "type": "title", "text": "Key Features of Our UGVs" },
       { "type": "check-list", "items": 
         ["Autonomous Navigation & AI Integration", "Rugged Design & Versatility", "Modular Payload System", "Remote Monitoring & Control", "Integration with Smart Infrastructure"] 
       },
@@ -40,7 +40,7 @@
     "image": "assets/img/services/non-gps-navigation.jpg",
     "content": [
       { "type": "paragraph", "text": "At Leafloat Robotics, we are developing advanced non-GPS navigation solutions for drones and ground vehicles, utilizing Real-Time Kinematic (RTK) positioning and visual sensors. These technologies enable highly accurate navigation in GPS-denied environments such as dense forests, underground tunnels, warehouses, and urban canyons. Our system integrates AI-driven sensor fusion to provide real-time localization and autonomous mobility without reliance on traditional GPS signals." },
-      { "type": "paragraph", "text": "Key Features of Our Non-GPS navigation" },
+      { "type": "title", "text": "Key Features of Our Non-GPS navigation" },
       { "type": "check-list", "items": 
         ["RTK-Based Positioning", "Visual Odometry & SLAM (Simultaneous Localization and Mapping)", "LiDAR & Depth Sensing", "Inertial Navigation System (INS) & Sensor Fusion", "AI-Powered Decision Making"] 
       },
@@ -52,7 +52,7 @@
     "image": "assets/img/services/nature_digitization.jpg",
     "content": [
       { "type": "paragraph", "text": "At Leafloat Robotics, we are developing advanced non-GPS navigation solutions for drones and ground vehicles, utilizing Real-Time Kinematic (RTK) positioning and visual sensors. These technologies enable highly accurate navigation in GPS-denied environments such as dense forests, underground tunnels, warehouses, and urban canyons. Our system integrates AI-driven sensor fusion to provide real-time localization and autonomous mobility without reliance on traditional GPS signals." },
-      { "type": "paragraph", "text": "Key Features of Our Non-GPS navigation" },
+      { "type": "title", "text": "Key Features of Our Non-GPS navigation" },
       { "type": "check-list", "items": 
         ["RTK-Based Positioning", "Visual Odometry & SLAM (Simultaneous Localization and Mapping)", "LiDAR & Depth Sensing", "Inertial Navigation System (INS) & Sensor Fusion", "AI-Powered Decision Making"] 
       },

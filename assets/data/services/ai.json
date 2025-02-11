@@ -3,42 +3,42 @@
     "title": "Warehouse Management",
     "image": "assets/img/services/warehouse_management.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Warehouse Management" }
+      { "type": "title", "text": "Key Features of Our Warehouse Management" }
     ]
   },
   {
     "title": "Fruit Classification",
     "image": "assets/img/services/fruit_classification.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Fruit Classification" }
+      { "type": "title", "text": "Key Features of Our Fruit Classification" }
     ]
   },
   {
     "title": "Trees Classification",
     "image": "assets/img/services/trees_classification.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Trees Classification" }
+      { "type": "title", "text": "Key Features of Our Trees Classification" }
     ]
   },
   {
     "title": "Safety AI Software",
     "image": "assets/img/services/safety_ai_software.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Safety AI Software" }
+      { "type": "title", "text": "Key Features of Our Safety AI Software" }
     ]
   },
   {
     "title": "Restaurants Management Eco System",
     "image": "assets/img/services/restaurants_management_eco_system.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Restaurants Management Eco System" }
+      { "type": "title", "text": "Key Features of Our Restaurants Management Eco System" }
     ]
   },
   {
     "title": "Crowd Monitoring",
     "image": "assets/img/services/crowd_monitoring.jpg",
     "content": [
-      { "type": "paragraph", "text": "Key Features of Our Crowd Monitoring" }
+      { "type": "title", "text": "Key Features of Our Crowd Monitoring" }
     ]
   }
 ]

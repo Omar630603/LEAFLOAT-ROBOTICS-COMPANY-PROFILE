@@ -92,6 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const p = document.createElement("p");
             p.textContent = item.text;
             serviceContent.appendChild(p);
+          } else if (item.type === "title") {
+            const h4 = document.createElement("h4");
+            h4.textContent = item.text;
+            serviceContent.appendChild(h4);
           } else if (item.type === "check-list") {
             const ul = document.createElement("ul");
             item.items.forEach(point => {
