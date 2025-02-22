@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
   serviceDetails.style.position = "relative";
   serviceDetails.appendChild(loadingOverlay);
 
+  const ugv_uav_only_container = document.querySelector("#ui-uav-only-container");
+
   // Add CSS for the loading overlay
   const style = document.createElement("style");
   style.textContent = `
@@ -86,6 +88,12 @@ document.addEventListener("DOMContentLoaded", function () {
         serviceImage.src = service.image;
         serviceTitle.textContent = service.title;
         serviceContent.innerHTML = "";
+
+
+        if (ugv_uav_only_container) {
+          const isUgvOrUav = service.title === "UAVs" || service.title === "UGVs";
+          ugv_uav_only_container.classList.toggle("d-none", !isUgvOrUav);
+        } 
 
         service.content.forEach(item => {
           if (item.type === "paragraph") {

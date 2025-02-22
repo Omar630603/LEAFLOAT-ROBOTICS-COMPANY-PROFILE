@@ -32,6 +32,9 @@
       { "type": "check-list", "items": 
         ["Autonomous Navigation & AI Integration", "Rugged Design & Versatility", "Modular Payload System", "Remote Monitoring & Control", "Integration with Smart Infrastructure"] 
       },
+      { "type": "title", "text": "Demo Video"},
+      { "type": "paragraph", "text": "The following video shows our UGV solutions for HSS Propick Innovtive Solutions for Oil Palm Plantations"},
+      { "type": "video", "href": "https://www.youtube.com/watch?v=Lqy1MgMLeQc"},
       { "type": "paragraph", "text": "Leafloat Robotics is continuously enhancing its UGV technology to bring innovative solutions to various industries. At Leafloat Robotics, we are committed to pushing the boundaries of UGV technology, enabling seamless automation for agriculture, construction sites, and warehouses. Our mission is to provide adaptable and intelligent robotic solutions that redefine efficiency and productivity across industries." }
     ]
   },
@@ -56,6 +59,9 @@
       { "type": "check-list", "items": 
         ["High-Resolution 3D Mapping", "AI-Powered Environmental Analysis", "Real-Time Data Collection", "Integration with GIS Platforms", "Sustainable Resource Monitoring"] 
       },
+      { "type": "title", "text": "Demo Video"},
+      { "type": "paragraph", "text": "The following video shows our Nature Digitization solutions for Customized FFB Ripeness Counting AI"},
+      { "type": "video", "href": "https://www.youtube.com/watch?v=5lIpbLZYCmY"},
       { "type": "paragraph", "text": "Leafloat Robotics is dedicated to advancing nature digitization technologies. Our solutions empower researchers, conservationists, and farmers with actionable insights to protect and optimize natural resources. With cutting-edge AI and robotics, Leafloat Robotics is shaping the future of environmental monitoring." }
     ]
   }
