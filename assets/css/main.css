@@ -793,238 +793,144 @@ section,
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* Hero section base styles */
 .hero {
-  padding: 0;
-  position: relative;
   width: 100%;
+  position: relative;
   overflow: hidden;
 }
 
-.hero-video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.hero__content {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+/* Logo styles */
+.hc__logo {
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Darker overlay */
+  max-width: 250px;
+  text-align: center;
 }
 
-.overlay-container {
-  position: absolute;
-  top: 77%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+.hc__logo img {
+  width: 100%;
+  height: auto;
 }
 
-.overlay-container a {
+/* Sectors section */
+.hc__sectors {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.hc__sector {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hc__sector img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+}
+
+.hc__sector h2 {
+  font-size: 0.9rem;
+  margin: 0;
+  text-align: center;
+}
+
+/* Box shadow section */
+.hc__box-shadow {
+  width: 85%;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 30px auto 0 auto;
+}
+
+.hc__box-shadow p {
+  color: var(--default-color);
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+.btn-outline-primary {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  color: var(--default-color);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
   background-color: transparent !important;
   border: 2px solid var(--accent-color)!important;
 }
 
-.overlay-container a:hover {
+.btn-outline-primary:hover {
   background-color: var(--accent-color) !important;
 }
 
-.hero .carousel {
-  width: 100%;
-  min-height: calc(100vh - 75px);
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-
-@media (max-height: 500px),
-(max-width: 1200px) {
-  .hero .carousel {
-    min-height: calc(100vh - 48px);
-  }
-}
-
-.hero img {
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.hero .carousel-item {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.carousel-item .desk-image{
-  display: block;
-}
-
-.carousel-item .mobile-image{
-  display: none;
-}
-
-.hero .container {
-  position: relative;
-  text-align: left;
-  width: 100%;
-  height: 100%;
-  padding-top: 40px;
-  padding-left: 50px;
-  z-index: 3;
-}
-
-.hero .container p {
-  max-width: 400px;
-  
-}
-
-@media (max-width: 1000px) {
-  .hero .container {
-    padding-top: 50px;
-    padding-left: 30px;
-  }
-
-  .carousel-item .desk-image{
-    display: none;
-  }
-
-
-}
-
-@media (max-width: 500px) {
-  .carousel-item .mobile-image{
-    display: block;
-  }
-}
-
-.hero h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-  font-weight: 700;
-}
-
+/* Responsive adjustments */
 @media (max-width: 768px) {
-  .hero h2 {
-    font-size: 30px;
+  .hc__logo {
+    max-width: 180px;
+  }
+
+  .hc__sectors {
+    margin-top: 10px;
+    gap: 1.5rem;
+  }
+
+  .hc__sector {
+    width: 100%;
+    max-width: 90px;
+  }
+
+  .hc__sector h2 {
+    font-size: 0.5rem;
+  }
+
+  .hc__box-shadow {
+    padding: 1.5rem;
+  }
+
+  .hc__box-shadow p {
+    font-size: 0.7rem;
   }
 }
 
-.hero .btn-get-started {
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 8px 32px;
-  transition: 0.5s;
-  margin: 10px 0;
-  border-radius: 4px;
-  color: var(--accent-color);
-  border: 2px solid var(--accent-color);
-}
-
-.hero .btn-get-started:hover {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-.hero .carousel-control-prev {
-  justify-content: start;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-prev {
-    padding-left: 15px;
+@media (max-width: 480px) {
+  .hero__content {
+    padding: 1rem;
   }
-}
 
-.hero .carousel-control-next {
-  justify-content: end;
-}
-
-@media (min-width: 640px) {
-  .hero .carousel-control-next {
-    padding-right: 15px;
+  .hc__logo {
+    max-width: 200px;
   }
-}
 
-.hero .carousel-control-next-icon,
-.hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 26px;
-  line-height: 0;
-  background: color-mix(in srgb, var(--default-color), transparent 90%);
-  border-radius: 50px;
-  color: var(--background-color);
-  transition: 0.3s;
-  width: 54px;
-  height: 54px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero .carousel-control-prev,
-.hero .carousel-control-next {
-  transition: 0.3s;
-  opacity: 0.5;
-}
-
-.hero .carousel-control-prev:focus,
-.hero .carousel-control-next:focus {
-  opacity: 0.5;
-}
-
-.hero .carousel-control-prev:hover,
-.hero .carousel-control-next:hover {
-  opacity: 0.9;
-}
-
-.hero .carousel-control-prev:hover .carousel-control-next-icon,
-.hero .carousel-control-prev:hover .carousel-control-prev-icon,
-.hero .carousel-control-next:hover .carousel-control-next-icon,
-.hero .carousel-control-next:hover .carousel-control-prev-icon {
-  background: var(--accent-color);
-  color: var(--background-color);
-}
-
-.hero .carousel-indicators li {
-  cursor: pointer;
-  background: var(--default-color);
-  overflow: hidden;
-  border: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.hero .carousel-indicators li.active {
-  opacity: 1;
-  background: var(--accent-color);
+  .hc__sector h2 {
+    font-size: 1rem;
+  }
 }
 
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
 .about .inner-title {
+  color: var(--default-color);
   font-size: 2.75rem;
   font-weight: 700;
   margin: 30px 0;
@@ -1034,6 +940,12 @@ section,
   .about .inner-title {
     max-width: 65%;
     margin: 0 0 80px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-img {
+    display: none;
   }
 }
 
@@ -1132,10 +1044,12 @@ section,
   background-color: var(--surface-color);
   box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
   height: 100%;
-  padding: 60px 30px;
+  padding: 35px 30px;
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .services .service-item .icon {
@@ -1147,6 +1061,7 @@ section,
   justify-content: center;
   transition: ease-in-out 0.3s;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .services .service-item .icon img {
@@ -1167,6 +1082,7 @@ section,
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
+  color: var(--default-color);
 }
 
 .services .service-item p {
@@ -1174,6 +1090,11 @@ section,
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  flex-grow: 1;
+}
+
+.service-item .btn {
+  align-self: center; /* Aligns the button properly */
 }
 
 .services .service-item:hover {
@@ -1357,9 +1278,9 @@ section,
 /*--------------------------------------------------------------
 # Clients Section
 --------------------------------------------------------------*/
-.clients .clients-wrap {
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-  border-left: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+
+.client-logo {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .clients .client-logo {
@@ -2025,7 +1946,7 @@ section,
 
 .blog-posts .post-title {
   font-size: 20px;
-  color: var(--heading-color);
+  color: var(--default-color);
   font-weight: 700;
   transition: 0.3s;
   margin-bottom: 15px;
@@ -2423,10 +2344,11 @@ section,
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
+  color: var(--default-color);
 }
 
 .contact .info p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: color-mix(in srgb, var(--default-color), transparent 40%) !important;
   margin-bottom: 30px;
   font-size: 15px;
 }
