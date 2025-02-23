@@ -905,6 +905,10 @@ section,
     display: none;
   }
 
+
+}
+
+@media (max-width: 500px) {
   .carousel-item .mobile-image{
     display: block;
   }
